@@ -1,17 +1,17 @@
 # Box Style Lab
 
-## Objectives
+## Learning Goals
 
-1. Practice writing and employing box styling with CSS
-2. Explore `border`, `box-shadow`, `background`, and the `linear-gradient()` CSS function
-
+- Practice writing and employing box styling with CSS.
+- Explore `border`, `box-shadow`, `background`, and the `linear-gradient()` CSS
+  function.
 
 ## Introduction
 
 As you have already noticed (as an non-programming end-user of the internet)
 the majority of websites out there use boxes to represent content. Sometimes we
 see the borders of these boxes, sometimes they have a slight 3D effect, and
-sometimes they change color when we hover over them. 
+sometimes they change color when we hover over them.
 
 Now, being the web programmer that you are, you know there is good reason for
 this! The DOM, via direction from HTML and CSS, defaults to box shapes for the
@@ -20,20 +20,22 @@ effects to, and style our HTML boxes.
 
 Using a 'before' and 'after' example, we will transform a page into a column
 based presentation. In doing so, we will practice our skills writing re-usable,
-rule-based, CSS. 
+rule-based, CSS.
 
 This lab is a great time to practice editing CSS directly in Chrome Inspector
 Tools. This allows us to change properties/values on the fly and see what they
-look like on screen before going back and editing the actual CSS file. 
-
+look like on screen before going back and editing the actual CSS file.
 
 ## Instructions
 
-- Examine what we have rendering already by opening `index.html` in the browser
-- Provide a solid [`border`][border] for all of our `<img>` tiles
-- Create a raised 3D effect for each of our sections using [`box-shadow`][box-shadow] (the green section has already been implemented)
-- Provide a [`background`][background] texture for the whole page, using `images/white-wood.jpg`
-- Implement an over-the-top, mind-blowing, [`linear-gradient()`][linear-gradient] effect for all of our section titles
+- Examine what we have rendering already by opening `index.html` in the browser.
+- Provide a solid [`border`][border] for all of our `<img>` tiles.
+- Create a raised 3D effect for each of our sections using
+  [`box-shadow`][box-shadow] (the green section has already been implemented).
+- Provide a [`background`][background] texture for the whole page, using
+  `images/white-wood.jpg`.
+- Implement an over-the-top, mind-blowing,
+  [`linear-gradient()`][linear-gradient] effect for all of our section titles.
 
 #### What We Have
 
@@ -43,9 +45,7 @@ look like on screen before going back and editing the actual CSS file.
 
 ![drawing](https://curriculum-content.s3.amazonaws.com/fewds-css/box-style-lab-complete.png)
 
-
-
-#### Help Getting Started
+## Help Getting Started
 
 For our **border**, use the `border` property. In our example, we made a 1px
 wide solid dark gray line. You may notice this messes up the proportioning of
@@ -75,17 +75,13 @@ values in ours: gradient direction, start color, and end color. For example, if
 we wanted to make a linear gradient that transitioned from left to right, white
 to black, we would do the following:
 
-`background: linear-gradient(to right, #FFF, #000)`. 
+`background: linear-gradient(to right, #FFF, #000)`.
 
-
-## Don't Forget!
+### Don't Forget!
 
 To reference the documentation when going about solving this lab!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/box-style-lab' title='Box Style Lab'>Box Style Lab</a> on Learn.co and start learning to code for free.</p>
-
 [linear-gradient]: https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
-[hover]: https://www.w3schools.com/cssref/sel_hover.asp
 [box-shadow]: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
 [background]: https://www.w3schools.com/css/css_background.asp
 [border]: https://www.w3schools.com/css/css_border.asp
